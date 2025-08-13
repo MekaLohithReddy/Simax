@@ -1,0 +1,333 @@
+.nav {
+    list-style-type: none;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    width: auto;
+    padding-right: 2%;
+    background-color: white;
+}
+
+.nav .a1 {
+    float: right;
+    margin-top: 1.5%;
+}
+
+.nav .a1 {
+    display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav .a1:hover:not(.active) {
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.all {
+    margin-left: 2%;
+}
+
+.logo img {
+    height: 15%;
+    width: 15%;
+    float: left;
+}
+
+
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 3%;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.ind {
+    background-image: url("https://t4.ftcdn.net/jpg/03/15/39/41/360_F_315394192_WPTehkhMfKD6TZaaQMNMtuMx6xZtIM9e.jpg");
+    text-align: center;
+    background-size: 100%;
+    margin-top: 3%;
+    padding-bottom: 1%;
+    color: white;
+}
+
+
+.indh1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    font-size: 350%;
+    padding-top: 5%;
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 250%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+p {
+    font-size: 140%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 150%;
+    margin: 0.4% 0.2%;
+    border: 3px;
+    border: solid white;
+    color: white;
+    cursor: pointer;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding-inline: 2%;
+    border-radius: 20px;
+    padding-block: 1%;
+}
+
+button:hover {
+    background-image: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    color: black;
+    border: none;
+}
+
+ul.point {
+    list-style-type: circle;
+}
+
+.oph1 {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 3%;
+    font-size: 300%;
+}
+
+.op1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.op11 {
+    margin: 2%;
+    text-align: left;
+    padding: 2%;
+    background-image: linear-gradient(#fcff9e 0%, #E3DE59 100%);
+    border-radius: 25px;
+    color: #191970;
+}
+
+.op11 h2 {
+    margin: 1%;
+    padding: 1%;
+}
+
+.op11 p {
+    margin: 1%;
+    padding: 1%;
+}
+
+.op111 img {
+    height: 95%;
+    width: 95%;
+    margin: 2%;
+    border-radius: 25px;
+}
+
+.lets {
+    background-image: url("https://cdn.vectorstock.com/i/500p/15/71/luxury-black-wave-background-vector-43391571.jpg");
+    color: white;
+    background-size: 100%;
+}
+
+.lets h1 {
+    font-size: 350%;
+    padding: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 0%;
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lets h2 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.AU h1 {
+    font-size: 300%;
+}
+
+.AU h2 {
+    font-size: 200%;
+}
+
+
+.TA {
+    background-image: url("https://www.relativity.com/relativity/images/ai-visionaries/web-card-pattern-1.jpg");
+    background-size: 100%;
+    margin: 2%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 25px;
+}
+
+
+.TA h1 {
+    font-size: 200%;
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.TA p {
+    text-align: left;
+    margin-left: 0%;
+    padding-left: 0%;
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.TA li {
+    margin-left: 10%;
+}
+
+.TA .hi {
+    margin-left: 10%;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.TA1 {
+    background-image: url("https://img.freepik.com/premium-vector/gold-abstract-futuristic-electronic-circuit-technology-background_4974-85.jpg");
+    background-size: 100%;
+    margin: 2%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 25px;
+
+}
+
+
+
+
+
+
+
+form {
+    margin: 10%;
+    font-size: 20px;
+    max-width: 80%;
+    background-color: #ffffff;
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Label Styling */
+form label {
+    display: block;
+    font-weight: bold;
+    color: #34495e;
+}
+
+/* Input and Textarea Styling */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 2%;
+    margin: 2%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #3333a2;
+    outline: none;
+}
+
+/* Submit Button Styling */
+form input[type="submit"] {
+    background-color: #3333a2;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    color: #3333a2;
+}
+
+
+
+.CU {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    background-color: hsl(60, 100%, 91%);
+    margin-top: 5%;
+}
+
+
+.CU1 img {
+    height: 50%;
+    width: 100%;
+}
+
+.hero {
+    margin-top: 5%;
+    font-size: 200%;
+}
+
+.foot1 .hii {
+    display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 200%
+}
+
+.foot1 .hii:hover:not(.active) {
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
