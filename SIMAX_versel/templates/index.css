@@ -331,3 +331,171 @@ form input[type="submit"]:hover {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* =====================================
+   Mobile & Tablet Responsive Styles
+   ===================================== */
+
+/* For Tablets & Small Laptops (≤ 768px) */
+@media screen and (max-width: 768px) {
+    /* --- Horizontal Navigation --- */
+    .nav {
+        display: flex;
+        justify-content: center;   /* center items horizontally */
+        align-items: center;       /* center vertically */
+        flex-wrap: wrap;           /* wrap if too many items */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        padding: 10px 0;
+        z-index: 1000;
+    }
+    .nav .a1 {
+        float: none;
+        display: inline-block;    /* keep links side-by-side */
+        padding: 10px 15px;
+        font-size: 16px;
+        border: none;
+    }
+    .logo img {
+        height: auto;
+        width: 30%;
+        max-width: 120px;
+        margin-right: 10px;
+    }
+
+    /* --- General Layout --- */
+    body {
+        padding-top: 80px; /* offset for fixed nav */
+        text-align: center;
+    }
+    h2 {
+        font-size: 180%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    p {
+        font-size: 110%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    /* --- Hero Section --- */
+    .indh1 {
+        font-size: 200%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .ind {
+        background-size: cover;
+    }
+
+    /* --- Buttons --- */
+    button {
+        font-size: 120%;
+        padding-inline: 5%;
+        margin-bottom: 3%;
+    }
+
+    /* --- Grids → Single Column --- */
+    .op1,
+    .about,
+    .CU {
+        grid-template-columns: 1fr;
+    }
+    .op11 {
+        font-size: 90%;
+        padding: 5%;
+    }
+    .op111 img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* --- Let's Section --- */
+    .lets h1 {
+        font-size: 200%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .lets h2 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    /* --- TA Sections --- */
+    .TA,
+    .TA1 {
+        padding: 5%;
+        margin: 5% 0;
+        background-size: cover;
+    }
+    .TA h1 {
+        font-size: 150%;
+    }
+    .TA p {
+        font-size: 100%;
+    }
+
+    /* --- Forms --- */
+    form {
+        margin: 5%;
+        padding: 5%;
+        font-size: 90%;
+    }
+
+    /* --- Contact Images --- */
+    .CU1 img {
+        height: auto;
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    /* --- Footer --- */
+    .foot1 .hii {
+        font-size: 120%;
+    }
+}
+
+/* For Small Phones (≤ 480px) */
+@media screen and (max-width: 480px) {
+    /* --- Navigation Adjustments --- */
+    .nav .a1 {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+    .logo img {
+        width: 50%;
+    }
+
+    /* --- Headings & Text --- */
+    .indh1 {
+        font-size: 150%;
+    }
+    h2 {
+        font-size: 140%;
+    }
+    p {
+        font-size: 100%;
+    }
+
+    /* --- Buttons --- */
+    button {
+        font-size: 100%;
+        padding-inline: 8%;
+    }
+}
